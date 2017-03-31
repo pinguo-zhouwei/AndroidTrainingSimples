@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.zhouwei.androidtrainingsimples.flex_layoutmanager.FlexLayoutManagerSimpleActivity;
+import com.zhouwei.androidtrainingsimples.snap_helper.SnapHelperSimpleActivity;
+import com.zhouwei.androidtrainingsimples.viewpager_wrapper.VActivity;
 import com.zhouwei.rvadapterlib.base.RVBaseCell;
 import com.zhouwei.rvadapterlib.base.RVBaseViewHolder;
 
@@ -48,6 +50,12 @@ public class MainItemCell extends RVBaseCell<String> implements View.OnClickList
                 break;
             case 1:
                 intent = new Intent(v.getContext(), FlexLayoutManagerSimpleActivity.class);
+                break;
+            case 2:
+                intent = new Intent(v.getContext(), VActivity.class);
+                break;
+            case 3:
+                intent = new Intent(v.getContext(), SnapHelperSimpleActivity.class);
                 break;
         }
 

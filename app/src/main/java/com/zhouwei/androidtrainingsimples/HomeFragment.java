@@ -14,8 +14,11 @@ import java.util.List;
  */
 
 public class HomeFragment extends AbsBaseFragment<String> {
-    public static final String TITLE[] = new String[]{"FlexboxLayout Simple"
-     ,"FlexboxLayout 结合RecyclerView"
+    public static final String TITLE[] = new String[]{
+            "FlexboxLayout Simple"
+            ,"FlexboxLayout 结合RecyclerView"
+            ,"ViewPagerWrapper Simple"
+            ,"SnapHelper Simple"
     };
     @Override
     public void onRecyclerViewInitialized() {

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+     <com.zhouwei.androidtrainingsimples.viewpager_wrapper.ViewPagerWrapLayout
+         android:id="@+id/wrap_layout"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@drawable/day_sign_right_bg"
+         >
+
+         <!-- 第一层 ViewPager -->
+         <android.support.v4.view.ViewPager
+             android:id="@+id/view_pager"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/text_color"
+             />
+
+         <!-- 右侧布局-->
+         <FrameLayout
+             android:layout_width="200dp"
+             android:layout_height="match_parent"
+             android:background="@android:color/transparent"
+             >
+             <LinearLayout
+                 android:id="@+id/right_layout"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical"
+                 android:gravity="center"
+                 android:visibility="gone"
+                 android:background="@android:color/transparent"
+                 >
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="see"
+                     android:textColor="@android:color/white"
+                     android:textSize="28sp"
+                     android:gravity="center"
+                     />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="you"
+                     android:textColor="@android:color/white"
+                     android:textSize="28sp"
+                     android:gravity="center"
+                     android:layout_marginTop="10dp"
+                     />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="next"
+                     android:textColor="@android:color/white"
+                     android:textSize="28sp"
+                     android:gravity="center"
+                     android:layout_marginTop="10dp"
+                     />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="dream"
+                     android:textColor="@android:color/white"
+                     android:textSize="28sp"
+                     android:gravity="center"
+                     android:layout_marginTop="10dp"
+                     />
+             </LinearLayout>
+         </FrameLayout>
+
+     </com.zhouwei.androidtrainingsimples.viewpager_wrapper.ViewPagerWrapLayout>
+
+</LinearLayout>

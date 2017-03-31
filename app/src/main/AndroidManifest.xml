@@ -19,6 +19,10 @@
         <activity android:name=".FlexboxLayoutSimpleActivity"/>
 
         <activity android:name=".flex_layoutmanager.FlexLayoutManagerSimpleActivity"/>
+
+        <activity android:name=".viewpager_wrapper.VActivity"/>
+
+        <activity android:name=".snap_helper.SnapHelperSimpleActivity"/>
     </application>
 
 </manifest>
