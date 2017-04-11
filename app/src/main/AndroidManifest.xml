@@ -23,6 +23,10 @@
         <activity android:name=".viewpager_wrapper.VActivity"/>
 
         <activity android:name=".snap_helper.SnapHelperSimpleActivity"/>
+
+        <activity android:name=".layout_animation.LayoutAnimationActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar"
+            />
     </application>
 
 </manifest>

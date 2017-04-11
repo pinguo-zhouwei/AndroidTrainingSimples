@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.zhouwei.androidtrainingsimples.flex_layoutmanager.FlexLayoutManagerSimpleActivity;
+import com.zhouwei.androidtrainingsimples.layout_animation.LayoutAnimationActivity;
 import com.zhouwei.androidtrainingsimples.snap_helper.SnapHelperSimpleActivity;
 import com.zhouwei.androidtrainingsimples.viewpager_wrapper.VActivity;
 import com.zhouwei.rvadapterlib.base.RVBaseCell;
@@ -56,6 +57,9 @@ public class MainItemCell extends RVBaseCell<String> implements View.OnClickList
                 break;
             case 3:
                 intent = new Intent(v.getContext(), SnapHelperSimpleActivity.class);
+                break;
+            case 4:
+                intent = new Intent(v.getContext(), LayoutAnimationActivity.class);
                 break;
         }
 

@@ -137,7 +137,7 @@ public class ViewPagerWrapLayout extends ViewGroup {
             forceUniformHeight(childCount,widthMeasureSpec);
         }
 
-        mScrollLimit = mMenuWidths * 4 / 10 ;
+        mScrollLimit = mMenuWidths * 1 / 10 ;
     }
 
     /**
@@ -202,11 +202,16 @@ public class ViewPagerWrapLayout extends ViewGroup {
                     isUserSwiped = false;
                     isUnMove = true;
                     isInterceptFlag = false;
-                    if(mViewCache!=null && mViewCache!= this){
+                    //如果右侧布局是展开的，则直接关闭
+                  /*  if(mIsExpand){
+                        smoothClose();
+                        return false;
+                    }*/
+                   /* if(mViewCache!=null && mViewCache!= this){
                         getParent().requestDisallowInterceptTouchEvent(true);
                         mViewCache.smoothClose();
                         isInterceptFlag = true;
-                    }
+                    }*/
 
                     if(isTouching){
                         return false;

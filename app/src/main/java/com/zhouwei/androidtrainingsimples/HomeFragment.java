@@ -19,6 +19,7 @@ public class HomeFragment extends AbsBaseFragment<String> {
             ,"FlexboxLayout 结合RecyclerView"
             ,"ViewPagerWrapper Simple"
             ,"SnapHelper Simple"
+            ,"LayoutAnimation Simple"
     };
     @Override
     public void onRecyclerViewInitialized() {

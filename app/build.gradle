@@ -34,6 +34,12 @@ dependencies {
   //  compile 'com.google.android:flexbox:0.2.5'
 
     compile 'com.google.android:flexbox:0.3.0-alpha2'
-
+    // RecyclerView 多Item类型封装库
     compile 'com.github.pinguo-zhouwei:CustomAdapter:v1.0.2'
+    // popwindow 库
+    compile 'com.github.pinguo-zhouwei:CustomPopwindow:2.0.0'
+
+    // RxJava2
+    compile "io.reactivex.rxjava2:rxjava:2.0.6"
+    compile "io.reactivex.rxjava2:rxandroid:2.0.1"
 }
