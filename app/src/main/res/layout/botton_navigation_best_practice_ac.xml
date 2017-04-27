@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layout_container"
+        android:visibility="visible"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerInParent="true"
+        >
+        <TextView
+            android:id="@+id/tab_Layout_tab"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="#E38A7C"
+            android:textColor="@android:color/white"
+            android:text="底部导航栏之 TabLayout＋Fragment"
+            />
+        <TextView
+            android:id="@+id/tab_bottom_navigation_view"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:text="底部导航栏之 BottomNavigationView＋Fragment"
+            android:gravity="center"
+            android:background="#74D6AF"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:id="@+id/tab_fragment_tab_host"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:text="底部导航栏之 FragmentTabHost＋Fragment"
+            android:gravity="center"
+            android:background="#FEBB50"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:id="@+id/tab_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:text="底部导航栏之 RadioGroupButton＋Fragment"
+            android:gravity="center"
+            android:background="#C79EFE"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:id="@+id/tab_custom_view"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:text="底部导航栏之  自定义Tab View ＋Fragment"
+            android:gravity="center"
+            android:background="#74D6AF"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -6,9 +6,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.zhouwei.androidtrainingsimples.bottom_navigation.BottomNavigationBestPracticeActivity;
 import com.zhouwei.androidtrainingsimples.flex_layoutmanager.FlexLayoutManagerSimpleActivity;
 import com.zhouwei.androidtrainingsimples.layout_animation.LayoutAnimationActivity;
 import com.zhouwei.androidtrainingsimples.snap_helper.SnapHelperSimpleActivity;
+import com.zhouwei.androidtrainingsimples.view.CustomViewActivity;
 import com.zhouwei.androidtrainingsimples.viewpager_wrapper.VActivity;
 import com.zhouwei.rvadapterlib.base.RVBaseCell;
 import com.zhouwei.rvadapterlib.base.RVBaseViewHolder;
@@ -60,6 +62,12 @@ public class MainItemCell extends RVBaseCell<String> implements View.OnClickList
                 break;
             case 4:
                 intent = new Intent(v.getContext(), LayoutAnimationActivity.class);
+                break;
+            case 5:
+                intent = new Intent(v.getContext(), CustomViewActivity.class);
+                break;
+            case 6:
+                intent = new Intent(v.getContext(), BottomNavigationBestPracticeActivity.class);
                 break;
         }
 

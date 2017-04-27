@@ -27,6 +27,15 @@
         <activity android:name=".layout_animation.LayoutAnimationActivity"
             android:theme="@style/Theme.Design.Light.NoActionBar"
             />
+        <activity android:name=".view.CustomViewActivity"
+                  android:theme="@style/Theme.Design.Light.NoActionBar"
+            />
+        <activity android:name=".bottom_navigation.FragmentTabHostActivity"/>
+        <activity android:name=".bottom_navigation.BottomTabLayoutActivity"/>
+        <activity android:name=".bottom_navigation.BottomNavigationViewActivity"/>
+        <activity android:name=".bottom_navigation.BottomNavigationBestPracticeActivity"/>
+        <activity android:name=".bottom_navigation.RadioGroupTabActivity"/>
+        <activity android:name=".bottom_navigation.CustomTabActivity"/>
     </application>
 
 </manifest>
