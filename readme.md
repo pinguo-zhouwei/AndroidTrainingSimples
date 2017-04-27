@@ -1,4 +1,8 @@
 ### Android Training Simples
+
+
+**不定期更新中...**
+
  
 博客demo 代码合集，详细使用请看对应博客
 
