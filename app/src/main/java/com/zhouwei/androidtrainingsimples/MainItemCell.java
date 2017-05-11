@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import com.zhouwei.androidtrainingsimples.bottom_navigation.BottomNavigationBestPracticeActivity;
 import com.zhouwei.androidtrainingsimples.flex_layoutmanager.FlexLayoutManagerSimpleActivity;
 import com.zhouwei.androidtrainingsimples.layout_animation.LayoutAnimationActivity;
+import com.zhouwei.androidtrainingsimples.service.ServiceSimpleActivity;
 import com.zhouwei.androidtrainingsimples.snap_helper.SnapHelperSimpleActivity;
 import com.zhouwei.androidtrainingsimples.view.CustomViewActivity;
 import com.zhouwei.androidtrainingsimples.viewpager_wrapper.VActivity;
@@ -68,6 +69,9 @@ public class MainItemCell extends RVBaseCell<String> implements View.OnClickList
                 break;
             case 6:
                 intent = new Intent(v.getContext(), BottomNavigationBestPracticeActivity.class);
+                break;
+            case 7:
+                intent = new Intent(v.getContext(), ServiceSimpleActivity.class);
                 break;
         }
 

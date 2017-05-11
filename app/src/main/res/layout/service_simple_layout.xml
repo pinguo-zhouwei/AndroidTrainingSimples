@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center_horizontal"
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:layout_height="match_parent">
+
+     <TextView
+         android:id="@+id/start_service"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Start Service"
+         android:padding="10dp"
+         android:textSize="18sp"
+         android:textColor="@android:color/white"
+         android:background="#E38A7C"
+         />
+    <TextView
+        android:id="@+id/stop_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Service"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:visibility="visible"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:background="#E38A7C"
+        />
+    <TextView
+        android:id="@+id/start_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始下载"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:visibility="visible"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:background="#E38A7C"
+        />
+
+    <TextView
+        android:id="@+id/bind_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bind Service"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:visibility="visible"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:background="#E38A7C"
+        />
+    <TextView
+        android:id="@+id/unbind_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="unBind Service"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:background="#E38A7C"
+        />
+
+    <ImageView
+        android:id="@+id/test_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        android:layout_marginTop="30dp"
+        />
+</LinearLayout>

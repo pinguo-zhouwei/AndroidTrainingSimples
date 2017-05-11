@@ -22,6 +22,7 @@ public class HomeFragment extends AbsBaseFragment<String> {
             ,"LayoutAnimation Simple"
             ,"CalendarView Simples"
             ,"Android 底部导航栏最佳实践"
+            ,"Service Simple"
     };
     @Override
     public void onRecyclerViewInitialized() {

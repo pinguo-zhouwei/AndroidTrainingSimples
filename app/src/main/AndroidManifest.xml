@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.zhouwei.androidtrainingsimples">
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -36,6 +36,14 @@
         <activity android:name=".bottom_navigation.BottomNavigationBestPracticeActivity"/>
         <activity android:name=".bottom_navigation.RadioGroupTabActivity"/>
         <activity android:name=".bottom_navigation.CustomTabActivity"/>
+        <activity android:name=".service.ServiceSimpleActivity"/>
+        <!-- -->
+        <service android:name=".service.SimpleService"
+                 android:exported="false"
+            />
+        <service android:name=".service.DownloadService"/>
+        <service android:name=".service.MusicService"/>
+        <service android:name=".service.MyIntentService"/>
     </application>
 
 </manifest>
