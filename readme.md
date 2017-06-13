@@ -32,3 +32,7 @@
 4,  Android Service和IntentService知识点详细总结
 
 [Android Service和IntentService知识点详细总结](http://www.jianshu.com/p/476d3ed50db1)
+
+5, 仿掌上英雄联盟皮肤浏览效果
+
+[ViewPager系列之－仿掌上英雄联盟皮肤浏览效果](http://www.jianshu.com/p/f1aa52d8f5cc)
