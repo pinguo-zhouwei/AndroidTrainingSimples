@@ -23,6 +23,7 @@ public class HomeFragment extends AbsBaseFragment<String> {
             ,"CalendarView Simples"
             ,"Android 底部导航栏最佳实践"
             ,"Service Simple"
+            ,"仿掌上英雄联盟皮肤浏览效果"
     };
     @Override
     public void onRecyclerViewInitialized() {

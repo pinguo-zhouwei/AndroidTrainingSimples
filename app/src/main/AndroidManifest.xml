@@ -37,6 +37,9 @@
         <activity android:name=".bottom_navigation.RadioGroupTabActivity"/>
         <activity android:name=".bottom_navigation.CustomTabActivity"/>
         <activity android:name=".service.ServiceSimpleActivity"/>
+        <activity android:name=".viewpager_transform.ViewPagerActivity"
+                  android:theme="@style/Theme.Design.Light.NoActionBar"
+            />
         <!-- -->
         <service android:name=".service.SimpleService"
                  android:exported="false"

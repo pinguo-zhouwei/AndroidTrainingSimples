@@ -10,6 +10,10 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        //使用renderscript 兼容包
+        renderscriptTargetApi 25
+        renderscriptSupportModeEnabled true
     }
     buildTypes {
         release {
@@ -45,4 +49,8 @@ dependencies {
     compile "io.reactivex.rxjava2:rxandroid:2.0.1"
     compile 'com.squareup.picasso:picasso:2.5.2'
    // compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    // IndicatorView
+    compile 'com.github.pinguo-zhouwei:CircleIndicatorView:v1.0.1'
+    // 高斯模糊
+    compile 'com.github.pinguo-zhouwei:EasyBlur:v1.0.0'
 }

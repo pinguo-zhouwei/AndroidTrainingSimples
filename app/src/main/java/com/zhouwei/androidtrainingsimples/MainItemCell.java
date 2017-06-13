@@ -12,6 +12,7 @@ import com.zhouwei.androidtrainingsimples.layout_animation.LayoutAnimationActivi
 import com.zhouwei.androidtrainingsimples.service.ServiceSimpleActivity;
 import com.zhouwei.androidtrainingsimples.snap_helper.SnapHelperSimpleActivity;
 import com.zhouwei.androidtrainingsimples.view.CustomViewActivity;
+import com.zhouwei.androidtrainingsimples.viewpager_transform.ViewPagerActivity;
 import com.zhouwei.androidtrainingsimples.viewpager_wrapper.VActivity;
 import com.zhouwei.rvadapterlib.base.RVBaseCell;
 import com.zhouwei.rvadapterlib.base.RVBaseViewHolder;
@@ -72,6 +73,9 @@ public class MainItemCell extends RVBaseCell<String> implements View.OnClickList
                 break;
             case 7:
                 intent = new Intent(v.getContext(), ServiceSimpleActivity.class);
+                break;
+            case 8:
+                intent = new Intent(v.getContext(), ViewPagerActivity.class);
                 break;
         }
 

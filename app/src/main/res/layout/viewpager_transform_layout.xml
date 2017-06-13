@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:clipChildren="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+       <!-- 高斯模糊背景-->
+       <ImageView
+           android:id="@+id/activity_bg"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:scaleType="centerCrop"
+          />
+
+       <!-- Toolbar-->
+       <RelativeLayout
+           android:id="@+id/toolbar"
+           android:layout_width="match_parent"
+           android:layout_height="50dp">
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/navigation_back_white"
+                  android:layout_centerVertical="true"
+                  android:layout_marginLeft="15dp"
+                  />
+              <TextView
+                  android:id="@+id/title_name"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerInParent="true"
+                  android:textSize="18sp"
+                  android:textColor="@android:color/white"
+                  />
+       </RelativeLayout>
+
+       <android.support.v4.view.ViewPager
+           android:id="@+id/my_viewpager"
+           android:layout_width="wrap_content"
+           android:layout_height="300dp"
+           android:clipChildren="false"
+           android:layout_marginLeft="50dp"
+           android:layout_marginRight="50dp"
+           android:layout_centerInParent="true"
+           />
+       <com.zhouwei.indicatorview.CircleIndicatorView
+           android:id="@+id/indicatorView"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="60dp"
+           android:layout_centerHorizontal="true"
+           app:indicatorSelectColor="#C79EFE"
+           app:indicatorSpace="5dp"
+           app:indicatorRadius="8dp"
+           app:enableIndicatorSwitch="false"
+           app:indicatorTextColor="@android:color/white"
+           app:fill_mode="number"
+           app:indicatorColor="#C79EFE"
+           />
+       <TextView
+           android:id="@+id/skin_desc"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:layout_below="@+id/my_viewpager"
+           android:layout_marginTop="20dp"
+           android:textColor="@android:color/white"
+           android:textSize="18sp"
+           />
+</RelativeLayout>
