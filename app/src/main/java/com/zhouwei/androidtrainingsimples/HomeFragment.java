@@ -24,6 +24,9 @@ public class HomeFragment extends AbsBaseFragment<String> {
             ,"Android 底部导航栏最佳实践"
             ,"Service Simple"
             ,"仿掌上英雄联盟皮肤浏览效果"
+            ,"Glide Simples"
+            ,"Rx_FlapMap_Simple"
+            ,"Inflate simples"
     };
     @Override
     public void onRecyclerViewInitialized() {

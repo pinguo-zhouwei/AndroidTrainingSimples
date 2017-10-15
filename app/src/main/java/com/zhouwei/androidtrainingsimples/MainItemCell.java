@@ -8,7 +8,10 @@ import android.view.ViewGroup;
 
 import com.zhouwei.androidtrainingsimples.bottom_navigation.BottomNavigationBestPracticeActivity;
 import com.zhouwei.androidtrainingsimples.flex_layoutmanager.FlexLayoutManagerSimpleActivity;
+import com.zhouwei.androidtrainingsimples.glide.GlideSimpleActivity;
+import com.zhouwei.androidtrainingsimples.inflate_test.InflateSimpleActivity;
 import com.zhouwei.androidtrainingsimples.layout_animation.LayoutAnimationActivity;
+import com.zhouwei.androidtrainingsimples.rx_simples.RxJavaSimpleActivity;
 import com.zhouwei.androidtrainingsimples.service.ServiceSimpleActivity;
 import com.zhouwei.androidtrainingsimples.snap_helper.SnapHelperSimpleActivity;
 import com.zhouwei.androidtrainingsimples.view.CustomViewActivity;
@@ -76,6 +79,15 @@ public class MainItemCell extends RVBaseCell<String> implements View.OnClickList
                 break;
             case 8:
                 intent = new Intent(v.getContext(), ViewPagerActivity.class);
+                break;
+            case 9:
+                intent = new Intent(v.getContext(), GlideSimpleActivity.class);
+                break;
+            case 10:
+                intent = new Intent(v.getContext(), RxJavaSimpleActivity.class);
+                break;
+            case 11:
+                intent = new Intent(v.getContext(), InflateSimpleActivity.class);
                 break;
         }
 

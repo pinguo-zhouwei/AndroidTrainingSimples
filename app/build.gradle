@@ -53,4 +53,11 @@ dependencies {
     compile 'com.github.pinguo-zhouwei:CircleIndicatorView:v1.0.1'
     // 高斯模糊
     compile 'com.github.pinguo-zhouwei:EasyBlur:v1.0.0'
+    // Glide 图片加载
+    compile 'com.github.bumptech.glide:glide:4.0.0-RC0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0-RC0'
+
+    // Rxjava 2.x
+    compile 'io.reactivex.rxjava2:rxjava:2.1.0'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
 }

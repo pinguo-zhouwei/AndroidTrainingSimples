@@ -37,9 +37,12 @@
         <activity android:name=".bottom_navigation.RadioGroupTabActivity"/>
         <activity android:name=".bottom_navigation.CustomTabActivity"/>
         <activity android:name=".service.ServiceSimpleActivity"/>
+        <activity android:name=".glide.GlideSimpleActivity"/>
+        <activity android:name=".rx_simples.RxJavaSimpleActivity"/>
         <activity android:name=".viewpager_transform.ViewPagerActivity"
                   android:theme="@style/Theme.Design.Light.NoActionBar"
             />
+        <activity android:name=".inflate_test.InflateSimpleActivity"/>
         <!-- -->
         <service android:name=".service.SimpleService"
                  android:exported="false"
