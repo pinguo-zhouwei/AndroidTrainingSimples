@@ -5,4 +5,16 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="text_color">#E38A7C</color>
+
+    <color name="start_color">#337E83</color>
+    <color name="end_color">#63B0A8</color>
+
+    <color name="page1_start_color">#336BB3</color>
+    <color name="page1_end_color">#61ABC0</color>
+
+    <color name="page2_start_color">#EE602C</color>
+    <color name="page2_end_color">#F2AB65</color>
+
+    <color name="page3_start_color">#75539F</color>
+    <color name="page3_end_color">#A87CB7</color>
 </resources>

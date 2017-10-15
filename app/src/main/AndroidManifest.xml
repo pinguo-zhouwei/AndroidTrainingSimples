@@ -39,6 +39,13 @@
         <activity android:name=".service.ServiceSimpleActivity"/>
         <activity android:name=".glide.GlideSimpleActivity"/>
         <activity android:name=".rx_simples.RxJavaSimpleActivity"/>
+
+        <activity android:name=".arc_header_view.ArcHeaderActivity"
+                  android:theme="@style/Theme.Design.Light.NoActionBar"
+            />
+        <activity android:name=".arc_header_view.ArcHeaderViewPagerActivity"
+                  android:theme="@style/Theme.Design.Light.NoActionBar"
+            />
         <activity android:name=".viewpager_transform.ViewPagerActivity"
                   android:theme="@style/Theme.Design.Light.NoActionBar"
             />

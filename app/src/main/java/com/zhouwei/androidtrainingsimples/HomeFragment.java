@@ -27,6 +27,8 @@ public class HomeFragment extends AbsBaseFragment<String> {
             ,"Glide Simples"
             ,"Rx_FlapMap_Simple"
             ,"Inflate simples"
+            ,"弧形HeaderView"
+            ,"弧形ViewPager"
     };
     @Override
     public void onRecyclerViewInitialized() {

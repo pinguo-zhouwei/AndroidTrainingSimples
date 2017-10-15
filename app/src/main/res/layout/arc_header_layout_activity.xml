@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+       <com.zhouwei.androidtrainingsimples.arc_header_view.ArcHeaderView
+           android:id="@+id/header_view"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp">
+                     <ImageView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:src="@drawable/navigation_back_white"
+                         android:layout_centerVertical="true"
+                         android:layout_marginLeft="15dp"
+                         />
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:textColor="@android:color/white"
+                         android:textSize="18sp"
+                         android:text="Android技术杂货铺"
+                         android:layout_centerInParent="true"
+                         />
+              </RelativeLayout>
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="简书ID | 依然范特西"
+                  android:textSize="16sp"
+                  android:textColor="@android:color/white"
+                  android:gravity="center"
+                  android:layout_marginTop="60dp"
+                  />
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="公众号 | Android技术杂货铺"
+                  android:textSize="18sp"
+                  android:textColor="@android:color/white"
+                  android:gravity="center"
+                  android:layout_marginTop="10dp"
+                  android:alpha="0.6"
+                  />
+
+       </LinearLayout>
+</FrameLayout>

@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.zhouwei.androidtrainingsimples.arc_header_view.ArcHeaderActivity;
+import com.zhouwei.androidtrainingsimples.arc_header_view.ArcHeaderViewPagerActivity;
 import com.zhouwei.androidtrainingsimples.bottom_navigation.BottomNavigationBestPracticeActivity;
 import com.zhouwei.androidtrainingsimples.flex_layoutmanager.FlexLayoutManagerSimpleActivity;
 import com.zhouwei.androidtrainingsimples.glide.GlideSimpleActivity;
@@ -88,6 +90,12 @@ public class MainItemCell extends RVBaseCell<String> implements View.OnClickList
                 break;
             case 11:
                 intent = new Intent(v.getContext(), InflateSimpleActivity.class);
+                break;
+            case 12:
+                intent = new Intent(v.getContext(), ArcHeaderActivity.class);
+                break;
+            case 13:
+                intent = new Intent(v.getContext(), ArcHeaderViewPagerActivity.class);
                 break;
         }
 

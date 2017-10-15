@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+     <TextView
+         android:id="@+id/arc_title"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="公众号：Android 技术杂货铺"
+         android:textColor="@android:color/white"
+         android:textSize="20sp"
+         android:gravity="center"
+         android:alpha="0.6"
+         />
+
+     <TextView
+         android:id="@+id/arc_content"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/white"
+         android:textSize="40sp"
+         android:gravity="center"
+         android:layout_marginTop="20dp"
+         />
+</LinearLayout>
