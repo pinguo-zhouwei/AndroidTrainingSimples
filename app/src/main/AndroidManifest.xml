@@ -50,6 +50,9 @@
                   android:theme="@style/Theme.Design.Light.NoActionBar"
             />
         <activity android:name=".inflate_test.InflateSimpleActivity"/>
+        <activity android:name=".arc_header_view.ArcHeaderImageActivity"
+                  android:theme="@style/Theme.Design.Light.NoActionBar"
+            />
         <!-- -->
         <service android:name=".service.SimpleService"
                  android:exported="false"

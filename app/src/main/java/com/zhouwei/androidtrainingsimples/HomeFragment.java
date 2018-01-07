@@ -29,6 +29,7 @@ public class HomeFragment extends AbsBaseFragment<String> {
             ,"Inflate simples"
             ,"弧形HeaderView"
             ,"弧形ViewPager"
+            ,"弧形HeaderView图片背景"
     };
     @Override
     public void onRecyclerViewInitialized() {

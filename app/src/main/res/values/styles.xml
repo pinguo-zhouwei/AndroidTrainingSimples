@@ -21,4 +21,10 @@
         <item name="android:textColor">@color/color_selector</item>
     </style>
 
+    <declare-styleable name="PerfectArcView">
+        <attr name="p_arc_startColor" format="color" />
+        <attr name="p_arc_endColor" format="color" />
+        <attr name="p_arc_showImage" format="boolean" />
+    </declare-styleable>
+
 </resources>
